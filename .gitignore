@@ -1,9 +1,10 @@
+cat << 'EOF' > .gitignore
 # Credenciales locales
 liquibase.properties
-liquibase.local.properties
-.env
+liquibase.local.properties.env
 
 # Archivos temporales
 *.log
 .DS_Store
 Thumbs.db
+EOF

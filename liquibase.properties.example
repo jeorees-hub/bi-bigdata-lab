@@ -1,0 +1,7 @@
+# Copiar este archivo como liquibase.properties y completar localmente.
+# NO colocar tokens reales en el repositorio.
+
+changelogFile: changelog/db.changelog-master.sql
+url: jdbc:databricks://dbc-80c4f5ed-a190.cloud.databricks.com:443/default;transportMode=http;ssl=1;httpPath=/sql/1.0/warehouses/54c831b86e5e4019;AuthMech=3;ConnCatalog=workspace;ConnSchema=default;
+username: token
+password: <DATABRICKS_TOKEN>
