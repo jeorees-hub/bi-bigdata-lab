@@ -26,6 +26,9 @@ databaseChangeLog:
               DROP SCHEMA IF EXISTS workspace.bi_staging_7003260753
 
   - include:
+      file: changelog/changes/002a_create_gold_schema.sql
+
+  - include:
       file: changelog/changes/003_create_dim_date.sql
 
   - include:
